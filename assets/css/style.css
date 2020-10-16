@@ -87,7 +87,7 @@ svg {
   height: 55px;
   font-weight: 700;
   display: flex;
-  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-in-out;
@@ -99,6 +99,7 @@ header {
   top: 0;
   background: rgba(12, 15, 39, 0.4);
   backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
   z-index: 99;
 }
 
@@ -395,4 +396,27 @@ header nav .cta a {
 }
 .black-italic-weight-area:hover + .black-italic-weight-text {
   opacity: 1 !important;
+}
+
+/** buy now */
+.buy-now {
+  background: var(--section-dark-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buy-now .cta {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-now a {
+  margin-top: 55px;
+}
+
+/** footer */
+footer {
+  background: var(--section-light-bg);
 }
