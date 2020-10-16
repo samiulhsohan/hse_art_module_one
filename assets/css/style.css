@@ -249,21 +249,22 @@ header nav .cta a {
 }
 .weight-tester .font-weights-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .weights:hover + .default-weight {
   opacity: 0;
 }
+.default-weight {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
 .weights {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .weight-wrapper {
   position: absolute;
   width: 1000px;
-  left: 223px;
 }
 .single-weight {
   text-align: center;
