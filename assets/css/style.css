@@ -73,7 +73,7 @@ svg {
   align-items: center;
   justify-content: center;
   padding: 0 45px;
-  transition: all 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .primary-btn:hover {
@@ -90,7 +90,7 @@ svg {
   border: 1px solid rgba(255, 255, 255, 0.3);
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
   padding: 0 45px;
 }
 
@@ -117,7 +117,7 @@ header nav .logo a {
   font-size: 18px;
   color: #fff;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 header nav .logo a:hover {
@@ -162,7 +162,7 @@ header nav .cta a {
 .scroll-arrow {
   margin-top: 130px;
   opacity: 0.5;
-  transition: all 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .scroll-arrow:hover {
@@ -176,7 +176,7 @@ header nav .cta a {
   border: 1.5px solid #fff;
   border-radius: 100px;
   top: -10px;
-  transition: all 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
 }
 
 .scroll-arrow .arrow {
