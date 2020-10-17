@@ -18,7 +18,7 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 690px;
 }
 
 a {
@@ -87,7 +87,7 @@ svg {
   height: 55px;
   font-weight: 700;
   display: flex;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   align-items: center;
   justify-content: center;
   /* transition: all 0.3s ease-in-out; */
@@ -125,9 +125,9 @@ header nav .logo a:hover {
 }
 
 header nav .cta a {
-  padding: 0 25px;
-  height: 40px;
-  font-size: 16px;
+  padding: 0 20px;
+  height: 35px;
+  font-size: 14px;
 }
 
 .hero-area {
@@ -205,6 +205,7 @@ header nav .cta a {
 .feature {
   display: flex;
   align-items: center;
+  margin-top: 150px;
 }
 
 .feature .info h2 {
@@ -223,12 +224,17 @@ header nav .cta a {
   flex-direction: row-reverse;
 }
 
+.font-showcase {
+  display: flex;
+  justify-content: center;
+  margin: 180px 0 120px;
+}
+
 /** Section 3 */
 .every-style {
-  background: var(--section-light-bg);
+  background: var(--section-dark-bg);
   display: flex;
   align-items: center;
-  padding: 199px 0;
 }
 
 .every-style .img img {
@@ -237,7 +243,7 @@ header nav .cta a {
 
 /** weight-tester */
 .weight-tester {
-  margin: 213px 0 0;
+  margin: 213px 0 233px;
 }
 .weight-tester .instruction {
   font-weight: 600;
@@ -400,11 +406,13 @@ header nav .cta a {
 
 /** buy now */
 .buy-now {
-  background: var(--section-dark-bg);
+  background: var(--section-light-bg);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 622px;
+  min-height: 0;
 }
 
 .buy-now .cta {
@@ -418,5 +426,14 @@ header nav .cta a {
 
 /** footer */
 footer {
-  background: var(--section-light-bg);
+  background: var(--section-dark-bg);
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 19px;
 }
