@@ -188,7 +188,7 @@ header nav .cta a {
 }
 
 .arrow:hover > .arrow-border {
-  height: 115px;
+  height: 112px;
 }
 
 /** Second section */
@@ -434,6 +434,7 @@ footer {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
+  color: #ffffff;
 }
